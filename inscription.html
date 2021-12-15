@@ -1,0 +1,53 @@
+<! DOCTYPE html>
+<html>
+<meta charset="utf-8" />	
+	<head>
+		<link rel="stylesheet" href="visuelhome.css">
+		<title>Création d'un compte client</title>
+	</head>
+	<body class="page">
+		<header class="header">
+				<p>Inscription<p>
+		</header>
+		<main class="main">
+		<form action="enregistrementinscr.php" method="post">
+			<label for="nom">Votre nom:</label> 
+			<input type="varchar(20)" name="nom" id="nom" required />
+			<label for="prenom">Votre prénom:</label>
+			<input type="varchar(20)" name="prenom" id="prenom" required />
+			<br>
+			<br>
+			<label for="admail">Votre adresse mail:</label>
+			<input type="varchar(50)" name="admail" id="admail" required />
+			<br>
+			<br>
+			<label for="telephone">Votre numéro de téléphone:</label>
+			<input type="varchar(10)" name="telephone" id="telephone" required />
+			<br>
+			<br>
+			<label for="numéro">N° de rue:</label>
+			<input type="int" name="numéro" id="numéro" required />
+			<label for="rue">Rue:</label>
+			<input type="text" name="rue" id="rue" required />
+			<label for="ville">Ville:</label>
+			<input type="varchar(20)" name="ville" id="ville" required />
+			<label for="cp">Code Postal:</label>
+			<input type="int" name="cp" id="cp" required />
+			<br>
+			<br>
+			<label for="naissance">Date de naissance:</label>
+			<input type="date" name="naissance" id="naissance" required />
+			<br>
+			<br>
+			<label for="mdp">Mot de Passe:</label>
+			<input type="varchar(20)" name="mdp" id="mdp" required />
+			<p><input type="submit" value="Envoyer"
+		</form>
+		</main>
+		<footer class="footer">
+		<p>11 bis rue Dupaty</p>
+			<p>17000 La Rochelle</p>
+		</footer>
+	</body>
+</html>
+		
