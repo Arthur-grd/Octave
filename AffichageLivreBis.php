@@ -23,7 +23,7 @@
 		</main>
 	<footer class="footer">
 		<p>11 bis rue Dupaty</p>
-			<p>17000 La Rochelle</p>
+		<p>17000 La Rochelle</p>
 	</footer>
 	</body>
 </html>
